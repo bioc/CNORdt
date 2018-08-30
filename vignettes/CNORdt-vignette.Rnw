@@ -21,8 +21,9 @@ This software is written in the R language, so in order to use it you will need 
 \emph{CNORdt} is an add-on to \emph{CellNOptR}~\cite{CellNOptR}, a software package that trains logic models to data~\cite{julio2009}. More details can be found using the following command to install:
 
 <<installPackage, eval=FALSE>>=
-source("http//bioconductor.org/biocLite.R")
-biocLite("CNORdt")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("CNORdt")
 @
 
 \section{CNORdt}
