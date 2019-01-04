@@ -1,7 +1,7 @@
 Package: CNORdt
 Type: Package
 Title: Add-on to CellNOptR: Discretized time treatments
-Version: 1.25.0
+Version: 1.25.1
 Date: 2012-09-18
 Author: A. MacNamara
 Maintainer: A. MacNamara <aidan.macnamara@ebi.ac.uk>
@@ -13,4 +13,4 @@ Description: This add-on to the package CellNOptR handles time-course
 License: GPL-2
 Depends: R (>= 1.8.0), CellNOptR (>= 0.99), abind
 LazyLoad: yes
-biocViews: CellBasedAssays, CellBiology, Proteomics, TimeCourse
+biocViews: ImmunoOncology, CellBasedAssays, CellBiology, Proteomics, TimeCourse
